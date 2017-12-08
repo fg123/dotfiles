@@ -9,7 +9,7 @@ PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
 # Long `ll` command
 alias ll='ls -lGh $@'
-PATH="/mnt/d/Documents/Projects/balance/bin:/mnt/d/Documents/Projects/nick/bin:/mnt/d/Documents/Projects/wendy/bin:$HOME/bin:$HOME/.local/bin:/usr/bin:$PATH"
+PATH="~/Documents/Projects/nick/bin:~/Projects/wendy/bin:$HOME/bin:$HOME/.local/bin:/usr/bin:$PATH"
 
 EDITOR=vim
 export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
