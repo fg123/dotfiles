@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Setup Dotfiles
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+for f in .[!.]* ; do	
+	ln -s $DIR/$f ~/$f;
+done

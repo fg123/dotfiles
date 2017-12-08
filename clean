@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Clear Dotfiles
+for f in .[!.]* ; do
+	rm -i ~/$f
+done

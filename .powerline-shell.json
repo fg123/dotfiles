@@ -1,0 +1,9 @@
+{
+  "segments": [
+	"set_term_title",
+    "ssh", 
+    "cwd", 
+    "git", 
+    "root"
+  ]
+}
