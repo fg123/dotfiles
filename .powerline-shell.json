@@ -1,9 +1,11 @@
 {
-  "segments": [
-	"set_term_title",
-    "ssh", 
-    "cwd", 
-    "git", 
-    "root"
-  ]
+	"segments": [
+		"set_term_title",
+		"username",
+		"ssh",
+		"cwd", 
+		"git",
+		"root"
+	],
+	"theme": "solarized_dark"
 }

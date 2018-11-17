@@ -3,3 +3,5 @@
 	name = Felix Guo
 [push]
 	default = simple
+[core]
+	editor = vim
